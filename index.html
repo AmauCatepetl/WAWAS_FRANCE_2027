@@ -56,10 +56,10 @@ body {
     <div id="countdown"></div>
 
     <script>
-        const targetDateLyon = new Date("March 12, 2027 20:00:00+01:00").getTime();
-        const targetDateParis = new Date("March 23, 2027 20:00:00+01:00").getTime();
+            const targetDateLyon = new Date("2027-03-12T20:00:00+01:00").getTime();
+            const targetDateParis = new Date("2027-03-23T20:00:00+01:00").getTime();
 
-        const timer = setInterval(function() {
+            const timer = setInterval(function() {
             const now = new Date().getTime();
             const distanceLyon = targetDateLyon - now;
             const distanceParis = targetDateParis - now;
